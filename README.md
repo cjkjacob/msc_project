@@ -1,5 +1,3 @@
-```markdown
-
 # 🚀 Getting Started
 
 ## 1. Prerequisites
@@ -410,5 +408,3 @@ After setup, here’s a quick checklist to verify everything is working as expec
 _Last updated: **April 7, 2025**_
 
 Made with 💡 by **cjkjacob**
-
-```
