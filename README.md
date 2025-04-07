@@ -54,13 +54,13 @@ This will take you to the frontend interface.
 
 ---
 
-## 👤 User Registration & Setup
+# 👤 User Registration & Setup
 
 Once the application is running, you'll need to register the necessary users to access the platform.
 
 ---
 
-### 1. Create a Django Superuser (Optional)
+## 1. Create a Django Superuser (Optional)
 
 If you're starting from scratch **without an existing database instance**, you'll need to create a Django superuser for administrative access.
 
@@ -85,7 +85,7 @@ http://localhost:8000/admin
 
 ---
 
-### 2. Register Users via the Frontend
+## 2. Register Users via the Frontend
 
 Open the Vue frontend in your browser:
 
@@ -97,7 +97,7 @@ Click on **Register** and follow the instructions for each user type.
 
 ---
 
-#### 👉 Register a Validator
+### 👉 Register a Validator
 
 1. Fill out the registration form with the required details.
 2. Select the **role** as `Validator`.
@@ -107,7 +107,7 @@ Click on **Register** and follow the instructions for each user type.
 
 ---
 
-#### 🎓 Register a Student
+### 🎓 Register a Student
 
 1. Repeat the same steps as for the validator.
 2. Select the **role** as `Student`.
@@ -120,7 +120,7 @@ You can repeat this process to create as many validators and students as needed.
 ---
 
 
-## 🎓 Student Workflow
+# 🎓 Student Workflow
 
 Once users are registered, you can access the platform via the frontend at:
 
@@ -130,7 +130,7 @@ http://localhost:5173
 
 ---
 
-### 🔐 Logging In
+## 🔐 Logging In
 
 1. Navigate to the **Login** page.
 2. Enter your **username** and **password** from registration.
@@ -138,7 +138,7 @@ http://localhost:5173
 
 ---
 
-### 🪪 Uploading Your Private Key
+## 🪪 Uploading Your Private Key
 
 After logging in, you must upload your **private key file** to sign and submit efforts.
 
@@ -152,7 +152,7 @@ To do this:
 
 ---
 
-### 📤 Submitting an Effort
+## 📤 Submitting an Effort
 
 To submit a new effort:
 
@@ -174,7 +174,7 @@ To submit a new effort:
 
 ---
 
-### 🧭 Exploring the Platform
+## 🧭 Exploring the Platform
 
 After submitting an effort, students can explore the following sections:
 
@@ -196,7 +196,7 @@ After submitting an effort, students can explore the following sections:
 
 ---
 
-## 🛡️ Validator Workflow
+# 🛡️ Validator Workflow
 
 Once you've registered or logged in as a **validator**, you can begin verifying and managing submitted efforts on the platform.
 
@@ -207,7 +207,7 @@ Once you've registered or logged in as a **validator**, you can begin verifying 
 
 ---
 
-### 🔐 Logging In as a Validator
+## 🔐 Logging In as a Validator
 
 1. Visit `http://localhost:5173` and click on **Login**.
 2. Enter your **validator credentials**.
@@ -215,7 +215,7 @@ Once you've registered or logged in as a **validator**, you can begin verifying 
 
 ---
 
-### 🗝️ Uploading the Private Key
+## 🗝️ Uploading the Private Key
 
 Just like students, validators **must upload their private key** before performing any signing or approval actions.
 
@@ -225,7 +225,7 @@ Just like students, validators **must upload their private key** before performi
 
 ---
 
-### ✅ Approving or ❌ Rejecting Efforts
+## ✅ Approving or ❌ Rejecting Efforts
 
 Inside the **Validator Dashboard**, you can:
 
@@ -239,7 +239,7 @@ Inside the **Validator Dashboard**, you can:
 
 ---
 
-### 📊 Additional Features for Validators
+## 📊 Additional Features for Validators
 
 Validators also have access to the following views:
 
@@ -255,7 +255,7 @@ Validators also have access to the following views:
 
 ---
 
-### 🔒 Session Management
+## 🔒 Session Management
 
 To maintain platform security:
 
@@ -265,11 +265,11 @@ To maintain platform security:
 
 ---
 
-## 🧠 Admin Access & Stopping the Platform
+# 🧠 Admin Access & Stopping the Platform
 
 ---
 
-### 🛑 Stopping the Platform
+## 🛑 Stopping the Platform
 
 To stop all running services (including all Django servers, the Vue frontend, and any supporting containers), run the following command **from the root project directory**:
 
@@ -281,7 +281,7 @@ This will gracefully shut down all services defined in your `docker-compose.yml`
 
 ---
 
-### 🔐 Accessing the Django Admin Panel
+## 🔐 Accessing the Django Admin Panel
 
 You can use the Django Admin Panel for backend management and manual inspection.
 
@@ -298,7 +298,7 @@ To access it:
 
 ---
 
-### 🛠️ Admin Features
+## 🛠️ Admin Features
 
 Once inside the admin dashboard, you can:
 
@@ -310,11 +310,10 @@ Once inside the admin dashboard, you can:
 
 > 🧩 The admin panel is a powerful tool and should be used **only by trusted administrators**.
 
---- 
-
-Here’s the expanded content formatted for your `README.md`:
 
 ---
+
+# 🐞 Troubleshooting Guide
 
 ## 📁 Project Structure Overview
 
@@ -372,7 +371,7 @@ After setup, here’s a quick checklist to verify everything is working as expec
 
 ---
 
-## 🐞 Troubleshooting Guide
+## Common Errors
 
 ### ⚠️ Frontend not accessible?
 
