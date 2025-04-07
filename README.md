@@ -24,7 +24,7 @@ You can download the project in one of two ways:
 ### Option 2: Use Git (if installed)
 ```bash
 git clone https://github.com/cjkjacob/msc_project.git
-cd msc_project
+cd msc_project-main
 ```
 
 ---
